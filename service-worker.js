@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tapmad-task/precache-manifest.0a2832525bb6f122330c0d31a5265650.js"
+  "/tapmad-task/precache-manifest.fa01f7e5b1f76a71fefabb88f1885bb4.js"
 );
 
 workbox.clientsClaim();

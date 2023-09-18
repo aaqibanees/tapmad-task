@@ -1,13 +1,13 @@
 {
-  "main.css": "/tapmad-task/static/css/main.733a1e7e.chunk.css",
-  "main.js": "/tapmad-task/static/js/main.c38c882e.chunk.js",
-  "main.js.map": "/tapmad-task/static/js/main.c38c882e.chunk.js.map",
-  "static/js/1.092946de.chunk.js": "/tapmad-task/static/js/1.092946de.chunk.js",
-  "static/js/1.092946de.chunk.js.map": "/tapmad-task/static/js/1.092946de.chunk.js.map",
+  "main.css": "/tapmad-task/static/css/main.c50ad014.chunk.css",
+  "main.js": "/tapmad-task/static/js/main.ba72fa5a.chunk.js",
+  "main.js.map": "/tapmad-task/static/js/main.ba72fa5a.chunk.js.map",
+  "static/js/1.bbf0009a.chunk.js": "/tapmad-task/static/js/1.bbf0009a.chunk.js",
+  "static/js/1.bbf0009a.chunk.js.map": "/tapmad-task/static/js/1.bbf0009a.chunk.js.map",
   "runtime~main.js": "/tapmad-task/static/js/runtime~main.002e02c7.js",
   "runtime~main.js.map": "/tapmad-task/static/js/runtime~main.002e02c7.js.map",
-  "static/css/main.733a1e7e.chunk.css.map": "/tapmad-task/static/css/main.733a1e7e.chunk.css.map",
+  "static/css/main.c50ad014.chunk.css.map": "/tapmad-task/static/css/main.c50ad014.chunk.css.map",
   "index.html": "/tapmad-task/index.html",
-  "precache-manifest.0a2832525bb6f122330c0d31a5265650.js": "/tapmad-task/precache-manifest.0a2832525bb6f122330c0d31a5265650.js",
+  "precache-manifest.fa01f7e5b1f76a71fefabb88f1885bb4.js": "/tapmad-task/precache-manifest.fa01f7e5b1f76a71fefabb88f1885bb4.js",
   "service-worker.js": "/tapmad-task/service-worker.js"
 }
