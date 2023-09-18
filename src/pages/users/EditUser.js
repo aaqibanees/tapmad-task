@@ -13,7 +13,7 @@ const EditUser = () => {
         e.preventDefault();
         let form = new FormData(e.target);
         form.append('id', location.state.user.id);
-        form.append('picture', (image ? URL.createObjectURL(image) : ( location.state.user.picture !== '' ? location.state.user.picture : '' ) ));
+        form.append('picture', (image ? URL.createObjectURL(image) : ( location.state?.user?.picture !== '' ? location.state?.user?.picture : '' ) ));
         editUser(serializeForm(form));
         navigate('/');
     };
@@ -32,8 +32,7 @@ const EditUser = () => {
                                 <label htmlFor="imageUpload"></label>
                             </div>
                             <div className={styles.formAvatarPreview}>
-                                <img src={
-                                    (image ? URL.createObjectURL(image) : ( location.state.user.picture !== '' ? location.state.user.picture : 'https://placehold.co/150x150?font=lato&text=Tapmad+Task'))} alt={location.state.user.username} />
+                                <img src={(image ? URL.createObjectURL(image) : ( location.state.user.picture !== '' ? location.state.user.picture : 'https://placehold.co/150x150?font=lato&text=Tapmad+Task'))} alt={location.state.user.username} />
                             </div>
                         </div>
                     </div>
