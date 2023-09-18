@@ -8,8 +8,9 @@ import Users from "./users/Users";
 
 
 const Main = () => {
+
     return (
-        <Routes basename={'/tapmad-task'}>
+        <Routes>
             <Route exact element={<UserProvider />}>
                 <Route index element={<Users />} />
                 <Route path=':id' element={<EditUser />} />
