@@ -27,18 +27,11 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
+  "browserslist": [
       ">0.2%",
       "not dead",
       "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  ],
   "devDependencies": {
     "ghpages": "^0.0.10",
     "react-router-dom": "^6.16.0"

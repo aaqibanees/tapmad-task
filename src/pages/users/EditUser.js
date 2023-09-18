@@ -12,7 +12,7 @@ const EditUser = () => {
     const saveChanges = (e) => {
         e.preventDefault();
         let form = new FormData(e.target);
-        form.append('id', location.state.user.id);
+        form.append('id', location.state?.user?.id);
         form.append('picture', (image ? URL.createObjectURL(image) : ( location.state?.user?.picture !== '' ? location.state?.user?.picture : '' ) ));
         editUser(serializeForm(form));
         navigate('/');
@@ -32,7 +32,7 @@ const EditUser = () => {
                                 <label htmlFor="imageUpload"></label>
                             </div>
                             <div className={styles.formAvatarPreview}>
-                                <img src={(image ? URL.createObjectURL(image) : ( location.state.user.picture !== '' ? location.state.user.picture : 'https://placehold.co/150x150?font=lato&text=Tapmad+Task'))} alt={location.state.user.username} />
+                                <img src={(image ? URL.createObjectURL(image) : ( location.state?.user?.picture !== '' ? location.state?.user?.picture : 'https://placehold.co/150x150?font=lato&text=Tapmad+Task'))} alt={location.state?.user.username} />
                             </div>
                         </div>
                     </div>
@@ -43,17 +43,17 @@ const EditUser = () => {
                             name="username"
                             id="username"
                             placeholder="Full Name"
-                            defaultValue={location.state.user.username}
+                            defaultValue={location.state?.user.username}
                             className={styles.formInput} />
                     </div>
                     <div className={styles.mb5}>
                         <label htmlFor="gender" className={styles.formLabel}>Gender</label>
                         <label className={styles.radio}>Male
-                            <input type='radio' id='gender' name='gender' defaultChecked={location.state.user.gender === 'Male'} value='Male' />
+                            <input type='radio' id='gender' name='gender' defaultChecked={location.state?.user.gender === 'Male'} value='Male' />
                             <span className={styles.checkmark}></span>
                         </label>
                         <label className={styles.radio}>Female
-                            <input type='radio' id='gender' name='gender' defaultChecked={location.state.user.gender === 'Female'} value='Female' />
+                            <input type='radio' id='gender' name='gender' defaultChecked={location.state?.user.gender === 'Female'} value='Female' />
                             <span className={styles.checkmark}></span>
                         </label>
                     </div>
@@ -63,7 +63,7 @@ const EditUser = () => {
                             name="address"
                             id="address"
                             placeholder="Address"
-                            defaultValue={location.state.user.address}
+                            defaultValue={location.state?.user.address}
                             className={styles.formInput} />
                     </div>
                     <div>

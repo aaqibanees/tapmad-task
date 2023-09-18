@@ -7,10 +7,10 @@ const Users = () => {
     const {users} = useOutletContext();
 
     return (
-        ( users.length > 0 ? <div className={styles.wrapper}>
+        ( users.length > 0 ? <div className={styles.container}><div className={styles.wrapper}>
             {users.map((user) => (
                 <User user={user} key={user.id} />
-            ))} </div> : <div className={'userNotFound'}>
+            ))} </div></div> : <div className={'userNotFound'}>
             <h2>User Not Found, Please <Link to='/create'>Click Here</Link> to Create New User</h2>
         </div> )
     );

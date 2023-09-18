@@ -13,7 +13,7 @@ const CreateUser = () => {
         e.preventDefault();
         let form = new FormData(e.target);
         form.append('id', generateRandomNDigits(5));
-        form.append('picture', (image ? URL.createObjectURL(image) : ''));
+        form.append('picture', (image ? URL.createObjectURL(image) : 'https://placehold.co/150x150?font=lato&text=Tapmad+Task'));
 
         addUser(serializeForm(form));
         navigate('/');
