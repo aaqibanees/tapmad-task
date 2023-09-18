@@ -11,7 +11,7 @@ const Users = () => {
             {users.map((user) => (
                 <User user={user} key={user.id} />
             ))} </div></div> : <div className={'userNotFound'}>
-            <h2>User Not Found, Please <Link to='/create'>Click Here</Link> to Create New User</h2>
+            <h2>User Not Found, Please <Link to='/create'>Click Here</Link> to Create one</h2>
         </div> )
     );
 };
