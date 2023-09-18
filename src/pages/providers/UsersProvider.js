@@ -9,14 +9,14 @@ const UserProvider = () => {
             username: 'Aaqib',
             picture: 'https://placehold.co/250x250?font=lato&text=Tapmad\\nTask',
             gender: 'Male',
-            address: 'Unknown in this strange world'
+            address: 'Unknown Address'
         },
         {
             id: generateRandomNDigits(5),
             username: 'Aaqib',
             picture: 'https://placehold.co/250x250?font=lato&text=Tapmad\\nTask',
             gender: 'Male',
-            address: 'Unknown in this strange world'
+            address: 'Unknown Address'
         },
         {
             id: generateRandomNDigits(5),
