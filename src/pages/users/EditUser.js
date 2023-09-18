@@ -1,4 +1,4 @@
-import {Link, useLocation, useNavigate, useOutletContext} from "react-router-dom";
+import {useLocation, useNavigate, useOutletContext} from "react-router-dom";
 import React, {useState} from "react";
 import {serializeForm} from "../../utils";
 import styles from "../../css/form.module.css";
@@ -33,7 +33,7 @@ const EditUser = () => {
                             </div>
                             <div className={styles.formAvatarPreview}>
                                 <img src={
-                                    (image ? URL.createObjectURL(image) : ( location.state.user.picture !== '' ? location.state.user.picture : 'https://placehold.co/150x150?font=lato&text=Tapmad+Task'))} />
+                                    (image ? URL.createObjectURL(image) : ( location.state.user.picture !== '' ? location.state.user.picture : 'https://placehold.co/150x150?font=lato&text=Tapmad+Task'))} alt={location.state.user.username} />
                             </div>
                         </div>
                     </div>

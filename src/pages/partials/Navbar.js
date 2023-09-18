@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import styles from '../../css/Navbar.module.css';
 import {Link} from "react-router-dom";
+import logo from '../../tapmad-logo.png';
 
 function Navbar() {
     const [isActive, setIsActive] = useState(false);
@@ -17,7 +18,7 @@ function Navbar() {
         <header className="App-header">
             <nav className={`${styles.navbar}`}>
                 <Link to="/" className={`${styles.logo}`}>
-                    <img src='/tapmad-logo.png' width='200' height='50'/>
+                    <img src={logo} width='200' height='50' alt='Tapmad task' />
                 </Link>
 
                 <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>

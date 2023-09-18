@@ -34,7 +34,7 @@ const CreateUser = () => {
                             </div>
                             <div className={styles.formAvatarPreview}>
                                 <img src={
-                                    (image ? URL.createObjectURL(image) : 'https://placehold.co/150x150?font=lato&text=Tapmad+Task')} />
+                                    (image ? URL.createObjectURL(image) : 'https://placehold.co/150x150?font=lato&text=Tapmad+Task')} alt='User avatar' />
                             </div>
                         </div>
                     </div>
