@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tapmad-task/static/css/main.114ebfed.css",
-    "main.js": "/tapmad-task/static/js/main.9fe51d3e.js",
+    "main.css": "/tapmad-task/static/css/main.8767f967.css",
+    "main.js": "/tapmad-task/static/js/main.5d0f52b8.js",
     "index.html": "/tapmad-task/index.html",
-    "main.114ebfed.css.map": "/tapmad-task/static/css/main.114ebfed.css.map",
-    "main.9fe51d3e.js.map": "/tapmad-task/static/js/main.9fe51d3e.js.map"
+    "main.8767f967.css.map": "/tapmad-task/static/css/main.8767f967.css.map",
+    "main.5d0f52b8.js.map": "/tapmad-task/static/js/main.5d0f52b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.114ebfed.css",
-    "static/js/main.9fe51d3e.js"
+    "static/css/main.8767f967.css",
+    "static/js/main.5d0f52b8.js"
   ]
 }
