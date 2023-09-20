@@ -24,6 +24,9 @@ const CreateUser = () => {
             <div className={styles.formInnerWrapper}>
                 <form onSubmit={saveChanges}>
                     <div className={styles.formTitle}>
+                        <div>
+                            <button type="button" onClick={(e) => navigate(-1)}><i className={`${styles.arrow} ${styles.left}`}></i></button>
+                        </div>
                         <p>Create New User</p>
                     </div>
                     <div className={styles.mb5}>

@@ -23,6 +23,46 @@
     font-weight: bolder;
     border-bottom: 1px dashed rgba(128,128,128,.1);
     margin-bottom: 25px;
+    position: relative;
+}
+
+.formTitle div {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.formTitle > div > button {
+    width: 50px;
+    height: 50px;
+    background-color : transparent;
+    border: none;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color .26s ease-in-out .15s;
+}
+
+.formTitle > div > button:hover {
+    background-color: var(--main);
+}
+
+.arrow {
+    border: solid var(--main);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 6px;
+    transition: border-color .26s ease-in-out .15s;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.formTitle > div > button:hover .arrow {
+    border-color: white;
 }
 
 .mb5 {
